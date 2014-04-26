@@ -26,5 +26,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities"],
-    long_description=open("PYRED").read()
+    long_description=open("README.md").read()
 )
