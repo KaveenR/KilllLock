@@ -12,7 +12,7 @@ except ImportError:
 	from distutils.core import setup
 setup(
     name="KillLock",
-    version="0.1.0",
+    version="0.1.2",
     description="This program is written to reset those pesky little Android Apps that restrict fromm doing stuff",
     keywords=["Android", "Lock", "Reset", "ADB"],
     author="KaveenR",
@@ -26,5 +26,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities"],
-    long_description=open("PYRED").read()
+    long_description=open("README.md").read()
 )
